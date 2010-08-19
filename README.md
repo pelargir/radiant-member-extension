@@ -73,10 +73,10 @@ The [Member Extension][rme] keeps its settings in Radiant::Config table, so in o
 
 For controlling the displayed text in the cookie flash (explained below) you can create the following settings:
 
-    Radiant::Config['Member.failed_login'] = 'Couldn't log you in!' # Will be rendered if the user fails to log in.
-    Radiant::Config['Member.succesful_login'] = 'Logged in successfully!' # Will be rendered if the user succesfully logs in.
-    Radiant::Config['Member.succesful_logout'] = 'You have been logged out!' # Will be rendered if the user succesfully logs out.
-    Radiant::Config['Member.need_login'] = 'Member must be logged in!' # Will be rendered if the page needs member access.
+    Radiant::Config['Member.failed_login'] = "Couldn't log you in!" # Will be rendered if the user fails to log in.
+    Radiant::Config['Member.succesful_login'] = "Logged in successfully!" # Will be rendered if the user succesfully logs in.
+    Radiant::Config['Member.succesful_logout'] = "You have been logged out!" # Will be rendered if the user succesfully logs out.
+    Radiant::Config['Member.need_login'] = "Member must be logged in!" # Will be rendered if the page needs member access.
 
 If you are using Radiant 0.7 or newer, you can place this configuration in `config/initializers/member.rb` of your project:
 
